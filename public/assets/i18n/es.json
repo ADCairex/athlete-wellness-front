@@ -1,0 +1,20 @@
+{
+  "login": {
+    "title": "Inicio de sesión",
+    "user": "Usuario",
+    "password": "Contraseña",
+    "remember": "Recordar",
+    "forgot": "¿Olvidaste tu contraseña?",
+    "login": "Iniciar sesión",
+    "register": "Registrarse",
+    "error": "Usuario o contraseña incorrectos"
+  },
+  "statusForm": {
+    "title": "Estado",
+    "pain": "Dolor",
+    "energy": "Energía",
+    "stress": "Estrés",
+    "sleep": "Sueño",
+    "availability": "Disponibilidad"
+  }
+}

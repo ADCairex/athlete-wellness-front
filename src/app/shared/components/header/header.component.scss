@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid #e9ecef;
+  width: 100%;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.burger-icon {
+  margin-right: 10px;
+}
