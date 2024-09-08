@@ -1,16 +1,18 @@
-<form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="login-form">
-  <h2>{{ 'login.title' | translate }}</h2>
-  <app-input
-    [label]="userLabel"
-    [control]="usernameControl"
-    type="text"
-  ></app-input>
-  <app-input
-    [label]="passwordLabel"
-    [control]="passwordControl"
-    type="password"
-  ></app-input>
-  <button mat-flat-button type="submit" [disabled]="loginForm.invalid">
-    {{ 'login.login' | translate }}
-  </button>
-</form>
+<div class="login-container">
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="login-form">
+    <h2>{{ 'login.title' | translate }}</h2>
+    <app-input
+      [label]="userLabel"
+      [control]="usernameControl"
+      type="text"
+    ></app-input>
+    <app-input
+      [label]="passwordLabel"
+      [control]="passwordControl"
+      type="password"
+    ></app-input>
+    <button mat-flat-button type="submit" [disabled]="loginForm.invalid">
+      {{ 'login.login' | translate }}
+    </button>
+  </form>
+</div>

@@ -26,7 +26,6 @@ export class StatusFormComponent {
       pain: ['', Validators.required],
     });
     this.statusForm = this.fb.group({
-      pain: ['0', Validators.required],
       energy: ['', Validators.required],
       stress: ['', Validators.required],
       sleep: ['', Validators.required],
